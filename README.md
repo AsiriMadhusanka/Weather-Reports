@@ -57,7 +57,7 @@ npm i
   * Select the Data structure as the Json.
   * Go to Header tab.
   * Insert into the Key as ```bash Authorization ```
-  * Insert Weather API key into Value ```bash "Bearer xxxxxxxxxxxxxxxxxxxxxxx"```.
+  * Insert Weather API key into Value ```bash "Bearer xxxxxxxxxxxxxxxxxxxxxxx"```
   * Sample update quary.
 
     ```bash
