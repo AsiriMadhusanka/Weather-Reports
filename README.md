@@ -52,11 +52,11 @@ npm i
   ```
 
 
-2.Update user location Under the post methode.
-  URL - [http://localhost:3000/users](http://localhost:3000/users)
+2. Update user location Under the post methode.
+   URL - [http://localhost:3000/users](http://localhost:3000/users)
   * Select the Data structure as the Json.
   * Go to Header tab.
-  * Insert into the Key as ```bash Authorization ```.
+  * Insert into the Key as ```bash Authorization ```
   * Insert Weather API key into Value ```bash "Bearer xxxxxxxxxxxxxxxxxxxxxxx"```.
   * Sample update quary.
 
