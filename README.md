@@ -50,6 +50,8 @@ npm i
         }
     }
   ```
+
+
 2.Update user location Under the post methode.
   URL - [http://localhost:3000/users](http://localhost:3000/users)
   * Select the Data structure as the Json.
