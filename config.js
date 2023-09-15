@@ -1,4 +1,4 @@
-     // config.js
+    //  config.js
      require('dotenv').config();
 
      module.exports = {
@@ -11,3 +11,4 @@
        EMAIL_PASSWORD: process.env.EMAIL_PASSWORD
 
      };
+
