@@ -51,20 +51,21 @@ npm i
     }
   ```
 2.Update user location Under the post methode.
-     URL - [http://localhost:3000/users](http://localhost:3000/users)
+  URL - [http://localhost:3000/users](http://localhost:3000/users)
   * Select the Data structure as the Json.
   * Go to Header tab.
   * Insert into the Key as ```bash Authorization ```.
   * Insert Weather API key into Value ```bash "Bearer xxxxxxxxxxxxxxxxxxxxxxx"```.
   * Sample update quary.
+
     ```bash
-      {
+    {
           "query": "mutation($id: ID!, $location: String!) { updateUser(userUpdateInput: { _id: $id, location: $location }) { _id email location date } }",
           "variables": {
           "id": "65047a1de29f6c82c1767207",
           "location": "Colombo"
           }
-      }
+     }
     ```
 
   
